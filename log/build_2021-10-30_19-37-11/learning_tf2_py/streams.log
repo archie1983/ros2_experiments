@@ -1,0 +1,37 @@
+[0.181s] Invoking command in '/home/student5/robotics/ROS_experiments/dev_ws/src/learning_tf2_py': AMENT_PREFIX_PATH=/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim LD_LIBRARY_PATH=/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages:/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build install --prefix /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py --record /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/install.log --single-version-externally-managed
+[0.337s] running egg_info
+[0.337s] creating ../../build/learning_tf2_py/learning_tf2_py.egg-info
+[0.338s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.338s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.338s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.338s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.338s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.339s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.362s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.362s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.362s] running build
+[0.362s] running build_py
+[0.363s] creating /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build
+[0.363s] creating /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build/lib
+[0.363s] creating /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.363s] copying learning_tf2_py/__init__.py -> /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.363s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.363s] running install
+[0.363s] running install_lib
+[0.364s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.364s] copying /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.364s] copying /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.364s] byte-compiling /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/__init__.py to __init__.cpython-38.pyc
+[0.365s] byte-compiling /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-38.pyc
+[0.365s] running install_data
+[0.366s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/share/ament_index
+[0.366s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/share/ament_index/resource_index
+[0.366s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.366s] copying resource/learning_tf2_py -> /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.366s] copying package.xml -> /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/share/learning_tf2_py
+[0.366s] running install_egg_info
+[0.367s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[0.367s] running install_scripts
+[0.379s] Installing static_turtle_tf2_broadcaster script to /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.379s] writing list of installed files to '/home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/install.log'
+[0.392s] Invoked command in '/home/student5/robotics/ROS_experiments/dev_ws/src/learning_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim LD_LIBRARY_PATH=/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages:/home/student5/robotics/ROS_experiments/dev_ws/install/turtlesim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/build install --prefix /home/student5/robotics/ROS_experiments/dev_ws/install/learning_tf2_py --record /home/student5/robotics/ROS_experiments/dev_ws/build/learning_tf2_py/install.log --single-version-externally-managed

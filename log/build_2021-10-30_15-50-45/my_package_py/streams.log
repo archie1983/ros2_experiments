@@ -1,0 +1,37 @@
+[0.203s] Invoking command in '/home/student5/robotics/ROS_experiments/dev_ws/src/my_package_py': PYTHONPATH=/home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_py build --build-base /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build install --prefix /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py --record /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/install.log --single-version-externally-managed
+[0.387s] running egg_info
+[0.387s] creating ../../build/my_package_py/my_package_py.egg-info
+[0.387s] writing ../../build/my_package_py/my_package_py.egg-info/PKG-INFO
+[0.387s] writing dependency_links to ../../build/my_package_py/my_package_py.egg-info/dependency_links.txt
+[0.388s] writing entry points to ../../build/my_package_py/my_package_py.egg-info/entry_points.txt
+[0.388s] writing requirements to ../../build/my_package_py/my_package_py.egg-info/requires.txt
+[0.388s] writing top-level names to ../../build/my_package_py/my_package_py.egg-info/top_level.txt
+[0.389s] writing manifest file '../../build/my_package_py/my_package_py.egg-info/SOURCES.txt'
+[0.418s] reading manifest file '../../build/my_package_py/my_package_py.egg-info/SOURCES.txt'
+[0.419s] writing manifest file '../../build/my_package_py/my_package_py.egg-info/SOURCES.txt'
+[0.419s] running build
+[0.419s] running build_py
+[0.419s] creating /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build
+[0.420s] creating /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build/lib
+[0.420s] creating /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build/lib/my_package_py
+[0.420s] copying my_package_py/__init__.py -> /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build/lib/my_package_py
+[0.420s] copying my_package_py/my_node_py.py -> /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build/lib/my_package_py
+[0.420s] running install
+[0.420s] running install_lib
+[0.421s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages/my_package_py
+[0.422s] copying /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build/lib/my_package_py/__init__.py -> /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages/my_package_py
+[0.422s] copying /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build/lib/my_package_py/my_node_py.py -> /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages/my_package_py
+[0.422s] byte-compiling /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages/my_package_py/__init__.py to __init__.cpython-38.pyc
+[0.423s] byte-compiling /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages/my_package_py/my_node_py.py to my_node_py.cpython-38.pyc
+[0.423s] running install_data
+[0.423s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/share/ament_index
+[0.423s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/share/ament_index/resource_index
+[0.424s] creating /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/share/ament_index/resource_index/packages
+[0.424s] copying resource/my_package_py -> /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/share/ament_index/resource_index/packages
+[0.424s] copying package.xml -> /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/share/my_package_py
+[0.424s] running install_egg_info
+[0.425s] Copying ../../build/my_package_py/my_package_py.egg-info to /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages/my_package_py-0.0.0-py3.8.egg-info
+[0.426s] running install_scripts
+[0.443s] Installing my_node_py script to /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/my_package_py
+[0.443s] writing list of installed files to '/home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/install.log'
+[0.467s] Invoked command in '/home/student5/robotics/ROS_experiments/dev_ws/src/my_package_py' returned '0': PYTHONPATH=/home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_py build --build-base /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/build install --prefix /home/student5/robotics/ROS_experiments/dev_ws/install/my_package_py --record /home/student5/robotics/ROS_experiments/dev_ws/build/my_package_py/install.log --single-version-externally-managed
