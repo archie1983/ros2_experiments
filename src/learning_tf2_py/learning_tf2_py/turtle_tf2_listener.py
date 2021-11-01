@@ -19,9 +19,10 @@ from geometry_msgs.msg import Twist
 import rclpy
 from rclpy.node import Node
 
-from tf2_ros import TransformException
+from tf2_ros import TransformException, LookupException, ConnectivityException, ExtrapolationException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
+from tf2_ros import Duration
 
 from turtlesim.srv import Spawn
 
@@ -65,13 +66,24 @@ class FrameListener(Node):
                 # and send velocity commands for turtle2 to reach target_frame
                 try:
                     now = rclpy.time.Time()
-                    trans = self.tf_buffer.lookup_transform(
-                        to_frame_rel,
-                        from_frame_rel,
-                        now)
-                except TransformException as ex:
+                    when = self.get_clock().now() - rclpy.time.Duration(seconds=5.0)
+#                    trans = self.tf_buffer.lookup_transform(
+#                        to_frame_rel,
+#                        from_frame_rel,
+#                        when, #now,
+#                        timeout=Duration(seconds=0.05))
+
+                    trans = self.tf_buffer.lookup_transform_full(
+                        target_frame=to_frame_rel,
+                        target_time=now,
+                        source_frame=from_frame_rel,
+                        source_time=when,
+                        fixed_frame='world',
+                        timeout=Duration(seconds=0.05))
+                except (TransformException, ConnectivityException, ExtrapolationException) as ex:
                     self.get_logger().info(
                         f'Could not transform {to_frame_rel} to {from_frame_rel}: {ex}')
+                    #raise
                     return
 
                 msg = Twist()
