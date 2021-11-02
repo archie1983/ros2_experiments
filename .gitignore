@@ -3,3 +3,5 @@ install/*
 log/*
 frames.gv
 frames.pdf
+src/learning_tf2_py/log/*
+src/learning_tf2_py/build/*
