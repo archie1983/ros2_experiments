@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="firefighter">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="r2d2">
 <xacro:property name="width" value="0.2" />
 <xacro:property name="bodylen" value="0.6" />
+<xacro:property name="wheeldiam" value="0.1" />
+<xacro:property name="reflect" value="0.9" />
+
 <link name="base_link">
     <visual>
         <geometry>
@@ -15,4 +18,15 @@
         </geometry>
     </collision>
 </link>
+
+
+<link name="wheel">
+    <visual>
+        <geometry>
+            <cylinder radius="${wheeldiam/2}" length="0.1"/>
+        </geometry>
+        <origin xyz="${reflect*(width+.02)} 0 0.25" />
+    </visual>
+</link>
+
 </robot>
