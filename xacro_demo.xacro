@@ -14,6 +14,22 @@
     </inertial>
 </xacro:macro>
 
+<xacro:macro name="blue_shape" params="name *shape">
+    <link name="${name}">
+        <visual>
+            <geometry>
+                <xacro:insert_block name="shape" />
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <xacro:insert_block name="shape" />
+            </geometry>
+        </collision>
+    </link>
+</xacro:macro>
+
 <link name="base_link">
     <visual>
         <geometry>
@@ -38,5 +54,9 @@
         <origin xyz="${reflect*(width+.02)} 0 0.25" />
     </visual>
 </link>
+
+<xacro:blue_shape name="blue_cylinder">
+    <cylinder radius=".42" length=".01" />
+</xacro:blue_shape>
 
 </robot>
