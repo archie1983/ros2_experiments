@@ -10,7 +10,7 @@ class StatePublisher(Node):
 
     def __init__(self):
         rclpy.init()
-        super().__init__('state_publisher')
+        super().__init__('walker_state_publisher')
 
         qos_profile = QoSProfile(depth=10)
         self.joint_pub = self.create_publisher(JointState, 'joint_states', qos_profile)

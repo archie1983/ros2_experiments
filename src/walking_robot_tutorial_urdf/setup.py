@@ -14,7 +14,8 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name), glob('launch/*.py')),
-        (os.path.join('share', package_name), glob('urdf/*'))
+        (os.path.join('share', package_name), glob('urdf/*')),
+#        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.py'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,7 +26,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'state_publisher = walking_robot_tutorial_urdf.state_publisher:main'
+            'walker_state_publisher = walking_robot_tutorial_urdf.walker_state_publisher:main',
         ],
     },
 )

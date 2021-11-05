@@ -30,7 +30,7 @@ def generate_launch_description():
             arguments=[urdf]),
         Node(
             package='walking_robot_tutorial_urdf',
-            executable='state_publisher',
-            name='state_publisher',
+            executable='walker_state_publisher',
+            name='walker_state_publisher',
             output='screen'),
     ])
